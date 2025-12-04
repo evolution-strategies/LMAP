@@ -1,0 +1,21 @@
+[project]
+name = "lmap"
+version = "0.1.0"
+description = "LMAP: Local PCA Models with Global MDS Embeddings for nonlinear dimensionality reduction"
+authors = [
+  { name = "Oliver Kramer", email = "oliver.kramer@uni-oldenburg.de" }
+]
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+
+dependencies = [
+  "numpy",
+  "scikit-learn",
+  "scipy",
+  "matplotlib"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

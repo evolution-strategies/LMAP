@@ -1,0 +1,36 @@
+Metadata-Version: 2.4
+Name: lmap
+Version: 0.1.0
+Summary: LMAP: Local PCA Models with Global MDS Embeddings for nonlinear dimensionality reduction
+Author-email: Oliver Kramer <oliver.kramer@uni-oldenburg.de>
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Dynamic: license-file
+
+# LMAP: Local PCA Models with Global MDS Embeddings
+
+LMAP (Local PCA Models with Global MDS Embeddings) is a small reference
+implementation of the method described in:
+
+> **LMAP: Local PCA Models with Global MDS Embeddings**  
+> Oliver Kramer, University of Oldenburg
+
+LMAP is a geometry-based framework for nonlinear dimensionality reduction that:
+- fits **local PCA tangent models** around landmark points,
+- aligns these charts via **global MDS** on a landmark graph,
+- and uses a **closed-form out-of-sample mapping** by blending local tangents.
+
+This yields smooth, interpretable embeddings with explicit local–global structure coupling.
+
+---
+
+## Installation
+
+```bash
+pip install -e .
