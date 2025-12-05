@@ -112,6 +112,7 @@ If you use LMAP in academic work, please cite:
 
 > O. Kramer, *Local PCA Models with Global MDS Embeddings (LMAP)*, 2025.  
 > (Full reference in `paper/lmap.pdf`.)
+(paper under review at ESANN 2026)
 
 ---
 
